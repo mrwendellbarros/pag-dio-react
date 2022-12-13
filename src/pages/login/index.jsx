@@ -1,4 +1,4 @@
-//import {Mail, Lock} from './reacticons'
+//import {Mdmail, Mdlock} from 'react-icons/md'
 
 import { Button } from '../../components/Button';
 import { Header } from '../../components/Header'
