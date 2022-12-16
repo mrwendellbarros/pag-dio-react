@@ -1,17 +1,32 @@
-import {Link} from 'react-router-dom';
-import bannerImage from '../../assets/banner.png'
-import { Button } from '../../components/Button';
 import { Card } from '../../components/Card';
 import { UserInfo } from '../../components/UserInfo';
 import { Header } from '../../components/Header'
-import { Container, TextContent, Title, TitleHighLight } from './styles'
+import { Container, Column, Title, TitleHighLight } from './styles'
 
 const Feed = () => {
   return (<>
-    <Header/>
+    <Header autenticdo={true} />
     <Container>
-      <Card />
-      <UserInfo percentual={35} nome="Wendell Gabriel" image="https://github.com/mrwendellbarros.png"/>
+      <Column flex={3} >
+        <Title>Feed</Title>
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+      </Column>
+      <Column flex={1} >
+        <TitleHighLight># RANKING 5 TOP DA SEMANA</TitleHighLight>
+        <UserInfo percentual={80} nome="Wendell Gabriel" image="https://github.com/mrwendellbarros.png"/>
+        <UserInfo percentual={50} nome="Wendell Gabriel" image="https://github.com/mrwendellbarros.png"/>
+        <UserInfo percentual={30} nome="Wendell Gabriel" image="https://github.com/mrwendellbarros.png"/>
+        <UserInfo percentual={20} nome="Wendell Gabriel" image="https://github.com/mrwendellbarros.png"/>
+        <UserInfo percentual={60} nome="Wendell Gabriel" image="https://github.com/mrwendellbarros.png"/>
+        <UserInfo percentual={90} nome="Wendell Gabriel" image="https://github.com/mrwendellbarros.png"/>
+      </Column>
     </Container>
     </>
   )

@@ -14,10 +14,10 @@ import {
 const Card = () => {
   return (
     <CardContainer>
-      <ImageBackground src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4xqRvDOUzYHlEUuD0bbx9DKA3N6UJukCLow&usqp=CAU' />
+      <ImageBackground src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4xqRvDOUzYHlEUuD0bbx9DKA3N6UJukCLow&usqp=CAU" />
       <Content>
         <UserInfo>
-          <UserPicture src='https://github.com/mrwendellbarros.png' />
+          <UserPicture src="https://github.com/mrwendellbarros.png" />
           <div>
           <h4>Wendell Gabriel</h4>
           <p>Há 8 minutos</p>
